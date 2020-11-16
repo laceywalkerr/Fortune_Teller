@@ -11,7 +11,15 @@ namespace FortuneTeller2
         static void Main(string[] args)
         {
             //These lines make up the "body" of the Main method. The "body" of a method contains the executable C# code. Here we create a string variable and print it to the Console.
-            Console.WriteLine("Hello World!");
+            string fortune = "Everything will be ok.";
+            Console.WriteLine(fortune);
+
+            //Console.WriteLine()will print it's argument to the console and then add a "newline".
+            //Console.Write() will print it's argument without adding a "newline"
+            Console.Write("The quick brown");
+            Console.WriteLine("fox jumps");
+            Console.Write("over the");
+            Console.WriteLine("lazy dog");
         }
     }
 }
